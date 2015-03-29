@@ -1,0 +1,9 @@
+---
+- apt: update_cache=yes cache_valid_time=3600
+  sudo: True
+
+- user: name=ajitb comment="Ajit Bawa" group=sudo password="Cloud900@1"
+  sudo: True
+
+- user: name=stevenfx comment="Steven Fourie" group=sudo password="Cloud900@1"
+  sudo: True
